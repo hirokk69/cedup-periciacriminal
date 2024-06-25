@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Perícia Criminal</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-white w3-top">
+        <div class="w3-bar" id="">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button"> <i class="fa fa-home"></i>HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-search"></i> O QUE É</a>
+            <a href="#setores" class="w3-bar-item w3-button w3-hide-small"> <i class="fa fa-user"></i>SETORES</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">O QUE É</a>
+            <a href="#setores" class="w3-bar-item w3-button" onclick="toggleFunction()">SETORES</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large border w3-black w3-xlarge w3-wide w3-animate-opacity">Perícia
+                Criminal</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center"><b>O QUE É</b></h3>
+        <p class="w3-center"><em>Perícia Criminal</em></p>
+        <p>Perícia criminal é o conjunto de técnicas e métodos utilizados por profissionais especializados para
+            investigar crimes e analisar evidências encontradas em locais de crime. Esses profissionais são chamados de
+            peritos criminais e são responsáveis por coletar, preservar, analisar e interpretar provas materiais que
+            possam ser utilizadas em processos judiciais.</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="img/NathBeLike.jpg" class="w3-round w3-image" alt="Foto lab" width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>As atividades de um perito criminal podem envolver diversas áreas, como balística, biologia forense,
+                    química forense, análise de impressões digitais, documentoscopia, entre outras. Eles atuam de forma
+                    objetiva e científica, seguindo procedimentos rigorosos para garantir a precisão e a confiabilidade
+                    das suas análises.
+                </p>
+
+                <p>A perícia criminal desempenha um papel crucial na investigação de crimes, fornecendo informações
+                    fundamentais para esclarecer os fatos e identificar os responsáveis pelos delitos, contribuindo
+                    assim para a justiça e segurança pública.</p>
+            </div>
+            <div>
+                <p class="w3-center"></p>
+                <p>Um perito criminal é um profissional especializado em análise científica e investigativa em seu
+                    trabalho envolve a coleta, preservação, exame e interpretação de provas físicas encontradas em cenas
+                    de crime.
+                    <br>
+                    <br>
+                    Quando acionados para uma investigação, os peritos criminais iniciam sua atuação no local do crime,
+                    onde utilizam técnicas específicas para preservar evidências relevantes. Isso inclui fotografar,
+                    documentar e coletar itens como impressões digitais, cabelos, fibras, fluidos corporais, fragmentos
+                    de vidro, objetos utilizados no crime e muito mais.
+                    <br>
+                    <br>
+                    De volta ao laboratório, o perito criminal examina detalhadamente as evidências recolhidas,
+                    empregando diversos métodos científicos e tecnológicos avançados, como análise de DNA,
+                    cromatografia, espectroscopia, microscopia e outras técnicas forenses. Com base nesses exames, o
+                    perito pode determinar a presença de substâncias específicas, identificar os responsáveis pela ação
+                    criminosa e até mesmo reconstruir a sequência de eventos ocorridos no crime.
+                    <br>
+                    <br>
+                    Além disso, o perito criminal também pode ser chamado para testemunhar em tribunais, apresentando
+                    suas conclusões e expertise ao júri e às partes envolvidas no processo legal. Sua imparcialidade e
+                    exatidão nas análises são fundamentais para garantir que a justiça seja aplicada de forma justa e
+                    precisa.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min w3-center" id="setores">
+        <div class="w3-display-middle">
+            <span
+                class="w3-xxlarge  w3-wide w3-hide-small w3-center w3-padding-large border w3-black w3-xlarge w3-wide w3-animate-opacity"
+                id="setores">Áreas da Perícia</span>
+            <span
+                class="w3-xxlarge w3-hide-large w3-hide-medium  w3-wide w3-center w3-padding-large border w3-black w3-xlarge w3-wide w3-animate-opacity"
+                id="setores">Áreas</span>
+            <br><br>
+            <span
+                class="w3-xxlarge w3-hide-large w3-hide-medium  w3-wide w3-center w3-padding-large border w3-black w3-xlarge w3-wide w3-animate-opacity"
+                id="setores">da</span><span
+                class="w3-xxlarge w3-hide-large w3-hide-medium w3-wide w3-center w3-padding-large border w3-black w3-xlarge w3-wide w3-animate-opacity"
+                id="setores">Perícia</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center"><b>SETORES</b></h3>
+        <p class="w3-center"><em>Uma breve explicação sobre os Setores</em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-padding-32 " style="margin:0 -16px">
+            <div class="w3-second w3-margin-bottom">
+                <img src="img/Externo.png" alt="Perícia Externa" style="width:100%;">
+                <div class="w3-container w3-white eusinto">
+                    <p><b>Perícia Externa</b></p>
+                    <p>As perícias externas são os exames períciais realizados em espaços físicos localizados em
+                        ambientes externos. (ex: vias públicas, áreas de vegetação)</p>
+
+                    <button class="w3-button w3-white w3-margin-bottom w3-black border eusinto"
+                        onclick="document.getElementById('ticketModalExterno').style.display='block'">Veja mais</button>
+                </div>
+            </div>
+            <div class="w3-second w3-margin-bottom ">
+                <img src="img/Interno.png" alt="Perícia Interna" style="width: 100%;">
+                <div class="w3-container w3-white eusinto">
+                    <p><b>Perícia Interna</b></p>
+                    <p>A Perícia interna é a parte da criminalística que estuda os documentos para
+                        verificar se são autênticos, em caso
+                        contrário determinar a sua autoria.</p>
+                    <button class="w3-button w3-white w3-margin-bottom w3-black border eusinto"
+                        onclick="document.getElementById('ticketModalInterno').style.display='block'">Veja mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="ticketModalInterno" class="w3-modal w3-center w3-container w3-padding-64">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black w3-center w3-padding-32">
+                <span onclick="document.getElementById('ticketModalInterno').style.display='none'"
+                    class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+                <h2 class="w3-wide w3-black"><i class="w3-margin-right"></i>Perícia Interna</h2>
+            </header>
+            <div class="w3-container">
+                <h4 class="preto"><label>Perícia Interna</label></h4>
+                <b>Exame documentocospia forense</b>
+                <p> É a parte da criminalística que estuda os documentos para verificar se são autênticos, em caso
+                    contrário determinar a sua autoria.
+                </p>
+                <br>
+                <b>Exame de informática forense</b>
+                <p>Os meios informatizados postam novos desafios associados a duas questões: complexidade de dados e
+                    quantidades de dados.
+                    A complexidade de dados são representações digitais de idéias, sinais e conceitos, necessitando de
+                    tradução para sua compreensão. A quantidade de dados é o volume de informação encontrado em casos
+                    comuns ultrapassando os limites usuais, como em investigações que resultam nas apreensões de
+                    documentos em papel e outros objetos, pois o mais simples computador é capaz de armazenar centenas
+                    de milhares de documentos em sua forma eletrônica. </p>
+                <br>
+                <b>Exame de balística</b>
+                <p>Essa área do conhecimento pesquisa as armas de fogo, sua munição e os efeitos dos tiros por elas
+                    produzidos, sempre que tiverem uma relação direta ou indireta com as infrações penais.
+                </p>
+                <br>
+                <b>Perícia de Laboratório</b>
+                <p> As perícias de Laboratório têm por atribuições a realização de perícias e pesquisas forenses com o
+                    uso de materiais, métodos e profissionais das áreas de ciências, envolvendo Biologia, Bioquímica,
+                    Química, e Física, na elucidação de um fato criminal.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="ticketModalExterno" class="w3-modal w3-center w3-container w3-padding-64">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black w3-center w3-padding-32">
+                <span onclick="document.getElementById('ticketModalExterno').style.display='none'"
+                    class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+                <h2 class="w3-wide w3-black"><i class="w3-margin-right"></i>Perícia Externa</h2>
+            </header>
+            <div class="w3-container">
+                <h4 class="preto"><label>Perícia Externa</label></h4>
+                <b>Perícia contra a vida</b>
+                <p> Na área de crimes contra a pessoa existe apenas um tipo de perícia, que é a perícia de local do
+                    crime, baseando-se no critério da presença ou não de um corpo, ossada ou mesmo um feto. São as
+                    pericias realizadas em locais locais de homicídios, acidente ou mortes aparentemente naturais, nos
+                    quais a vitima seja socorrida, bem como aqueles relacionados as modalidades tentadas, por exemplo,
+                    locais de tentativa de homicídio, juntamente com outras variedades de locais, como os de lesões
+                    corporais, seqüestro, cárcere privado etc.
+                <p> - Perícia de local de morte violenta</p>
+                <p> - Perícia de local de cadáver encontrado.</p>
+                <p> - Perícia de local de ossada encontrada.</p>
+                <p> - Perícia de local de feto encontrado.</p>
+                <p> - Perícia de local de aborto.</p>
+                <p> - Perícia de local de ação violenta.</p>
+                </p>
+                <br>
+                <b>Perícia contra o patrimônio</b>
+                <p> Procedimentos periciais realizados em maior incidência de delitos na modalidade dos crimes contra o
+                    patrimônio, residências, e principalmente as de estabelecimentos comerciais que são furtados com
+                    destruição ou rompimento de obstáculo à subtração da coisa; com abuso de confiança ou mediante
+                    fraude, escalada ou destreza; com emprego de chave falsa; mediante concurso de duas ou mais pessoas.
+                </p>
+                <br>
+                <b>Exame pericial em local de acidente de trânsito</b>
+                <p>Os procedimentos periciais realizados em local de acidente de trânsito com vítima fatal.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <p>Feito por <a href="https://github.com/hirokk69" title="" target="_blank"
+                class="w3-hover-text-pink">Hiiro</a><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title=""
+                target="_blank" class="w3-hover-text-red">
+                e</a>
+            <a href="https://youtu.be/T9hV4WouqX4?si=arlyiOkALCuyA4i6" title="" target="_blank"
+                class="w3-hover-text-green">
+                Alison</a>
+        </p>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        var modal = document.getElementById('ticketModalExterno');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        var modal = document.getElementById('ticketModalInterno');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
